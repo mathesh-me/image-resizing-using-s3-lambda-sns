@@ -10,6 +10,11 @@ This project focuses on building an automated system for image processing and ma
 4. Scalable architecture: Design for scalability to handle image processing demands.
 5. Cost-efficient solution: Leverage AWS serverless technologies to minimize operational costs.
 
+## Overview :
+
+![a1](https://github.com/itz-mathesh/image-resizing-using-s3-lambda-and-sns/assets/144098846/d806e90a-365e-4f59-a6ac-2606c74b79e3)
+
+
 
 ## Steps :
 ### Step 1 :
