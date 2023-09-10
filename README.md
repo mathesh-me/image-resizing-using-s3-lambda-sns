@@ -1,0 +1,1 @@
+# image-resizing-using-s3-lambda-and-sns
