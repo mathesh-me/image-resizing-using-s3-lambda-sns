@@ -39,7 +39,7 @@ This project focuses on building an automated system for image processing and ma
 4. As you can see above , I created two buckets one is Source bucket and another one is Destination bucket.
 
 ### Step 2 :
-### Creting the SNS Notification :
+### Creating the SNS Notification :
 
 1. Navigate to the SNS console.
 2. Follow the Outlined Steps below.
@@ -89,7 +89,7 @@ This project focuses on building an automated system for image processing and ma
 
 ![i15](https://github.com/itz-mathesh/image-resizing-using-s3-lambda-and-sns/assets/144098846/1eeca065-8dbd-41d4-953d-59cec42c87bc)
 
-3. Now replace the dafault code with the image-resizing-s3.py and deploy the changes , Don't test the code now we have to do some more actions before testing.
+3. Now replace the default code with the image-resizing-s3.py and deploy the changes , Don't test the code now we have to do some more actions before testing.
 4. After that , We have to give some permission for our Lambda Function to do our process (resizing) , For that navigate to the IAM Console and follow the below steps.
 
 
@@ -139,7 +139,7 @@ This project focuses on building an automated system for image processing and ma
 7. Now we have to go to code section , and scroll down to  layers.<br>
 8. We have to add layer .<br>
 9. May be you can think , why ?<br>
-10. It's beacuse for resize the image we upload in our source S3 bucket , We need a python library called pillow in our code to resize the image . We can manually add Pillow library also, But it's very time consuming and you have to do lot more , Instead of manually adding pillow library we are going to use layers for Some easy action.<br>
+10. It's because for resize the image we upload in our source S3 bucket , We need a python library called pillow in our code to resize the image . We can manually add Pillow library also, But it's very time consuming and you have to do lot more , Instead of manually adding pillow library we are going to use layers for Some easy action.<br>
 11. Follow the outlined Steps below.
 
 
@@ -160,7 +160,7 @@ arn:aws:lambda:ap-south-1:770693421928:layer:Klayers-p39-pillow:1
 
 ![i50](https://github.com/itz-mathesh/image-resizing-using-s3-lambda-and-sns/assets/144098846/9f13561b-3839-495e-bf69-9ac34605f3c9)
 
-14. It will show some results like below , It runs successfully but return some error beacuse we still not upload the images in S3 yet.
+14. It will show some results like below , It runs successfully but return some error because we still not upload the images in S3 yet.
 
 
 ![i50 1](https://github.com/itz-mathesh/image-resizing-using-s3-lambda-and-sns/assets/144098846/d4d73c43-32aa-4ada-bed0-3aa30dd053e4)
