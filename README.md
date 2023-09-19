@@ -21,7 +21,7 @@ This project focuses on building an automated system for image processing and ma
 ### Creating Source and Designation s3 Buckets :
 
 1. Navigate to the S3 Console.
-2. Follow the Oulined Steps below.
+2. Follow the Outlined Steps below.
 
 
 ![i1](https://github.com/itz-mathesh/image-resizing-using-s3-lambda-and-sns/assets/144098846/fcf47c3c-3b40-4952-a0b5-5f53fe3d6444)
